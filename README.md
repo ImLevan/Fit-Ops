@@ -5,7 +5,7 @@
 > © Desarrollado por Valentin Chianese
 ## Descripción
 
-Under Gym Management System es una aplicación de escritorio la cual consiste en un sistema de gestión para los gimnasios.  El objetivo del proyecto es automatizar las tareas de gestión que pueden tener estas instituciones, como el registro de clientes, la gestión de membresías y la gestión de pagos.
+Fit Ops Management System es una aplicación de escritorio la cual consiste en un sistema de gestión para los gimnasios.  El objetivo del proyecto es automatizar las tareas de gestión que pueden tener estas instituciones, como el registro de clientes, la gestión de membresías y la gestión de pagos.
 
 Las características principales del proyecto son:
 
