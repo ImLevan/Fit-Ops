@@ -293,7 +293,7 @@ public class VentanaVisitaMiembro extends javax.swing.JDialog {
         
         if(!(miembro.getEstado().equals("ACTIVO"))){
             mostrarMensaje("El miembro no tiene una membresía asignada", "Error", "Error al registrar la visita");        
-        }else if(cantDiasVisitados >= 3){
+        }else if(cantDiasVisitados >= miembro_membresia.getDiasXSemana()){
             mostrarMensaje("El miembro ya cumplió con todas las visitas de la semana", "Error", "Error al registrar la visita");  
         }else{
             control.registrarVisita(usuario, miembro_membresia, miembro);
