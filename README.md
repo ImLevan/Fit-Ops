@@ -44,13 +44,13 @@ A continuación voy a mostrar imagenes de la interfaz del proyecto:
 
 ### Dashboard
 
-- El dashboard donde se pueden ver los miembros registrados y unas metricas relacionadas a los ingresos que está obteniendo el gimnasio.
+- El dashboard donde se pueden ver los miembros registrados y unas metricas relacionadas a los ingresos que está obteniendo el gimnasio. Estas métricas siempre se actualizan el primero de cada mes, debido a que son métricas mensuales.
 
 ![Screenshot Dashboard](./src/main/resources/icons/2Dashboard.png)
 
 ### Miembros
 
-- El apartado de miembros que muestra la tabla de los mismos, y cuenta con la creación, edición y eliminación de cada una. Además de tener la posibilidad de asignarle las membresias a los miembros. Cuando se le asigna una membresia a un miembro, además se efectua el pago.
+- El apartado de miembros que muestra la tabla de los mismos, y cuenta con la creación, edición y eliminación de cada una. Además de tener la posibilidad de asignarle las membresias a los miembros. Cuando se le asigna una membresia a un miembro se efectua el pago y además se cambia el estado del miembro a "Activo" que significa que su membresía esta vigente, al pasar el tiempo estipulado en el que rige dicha membresía, el estado del miembro pasará a "Vencido".
 
 ![Screenshot Miembros](./src/main/resources/icons/5Miembros.png)
 ![Screenshot Carga Miembros](./src/main/resources/icons/4CargaMiembros.png)
@@ -77,7 +77,7 @@ A continuación voy a mostrar imagenes de la interfaz del proyecto:
 
 ### Visitas
 
-- El apartado de visitas que da la opcion de registrar las visitas de los miembros o bien registrar las visitas de un cliente que pagó solamente el día.
+- El apartado de visitas que da la opcion de registrar las visitas de los miembros o bien registrar las visitas de un cliente que pagó solamente el día. En el caso de querer registrar la visita de un miembro, notar que del lado derecho aparece la información del miembro seleccionado, en el apartado de "días de visita" se muestran la cantidad de visitas que le quedan al miembro por utilizar en la semana, una vez llegado al límite de la capacidad no se podrá registrar otra visita a ese miembro hasta que empiece la siguiente semana.
 
 ![Screenshot Visitas](./src/main/resources/icons/10Visitas.png)
 ![Screenshot Visita Miembro](./src/main/resources/icons/11VisitaMiembro.png)
