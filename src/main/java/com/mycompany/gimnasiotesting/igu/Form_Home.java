@@ -182,7 +182,7 @@ public class Form_Home extends javax.swing.JPanel {
         if(listaMiembros != null){
             for(Miembro miembro : listaMiembros){
                 if(miembro.getMiembro_membresia() != null){
-                    if(miembro.getFechaFin().equals(fechaHoy)){
+                    if(miembro.getFechaFin().isBefore(fechaHoy)){
                         miembro.setEstado("VENCIDO");
                         control.modificarMiembro(miembro, miembro.getNombre(), miembro.getMatricula(), miembro.getApellido(), miembro.getDni(), miembro.getTelefono(), miembro.getSexo());
                     }
